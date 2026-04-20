@@ -1,0 +1,37 @@
+# dependencies
+node_modules/
+
+# build
+dist/
+
+# environment variables
+.env
+.env.*
+
+# logs
+*.log
+npm-debug.log*
+
+# cache
+.vite/
+.cache/
+
+# editor
+.vscode/
+.idea/
+
+# system
+.DS_Store
+Thumbs.db
+
+# testing
+coverage/
+
+# typescript
+*.tsbuildinfo
+
+# vercel
+.vercel
+
+# eslint
+.eslintcache
