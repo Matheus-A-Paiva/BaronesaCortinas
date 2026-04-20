@@ -2,7 +2,7 @@ import { MapPin, Phone, Mail, Clock, Instagram } from "lucide-react";
 
 export function Contact() {
   return (
-    <section id="contato" className="py-24 bg-card">
+    <section id="contato" className="py-24 bg-background">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-4">
