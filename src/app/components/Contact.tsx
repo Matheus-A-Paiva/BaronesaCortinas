@@ -1,4 +1,4 @@
-import { MapPin, Phone, Mail, Clock, Instagram } from "lucide-react";
+import { MapPin, Phone, Clock, Instagram } from "lucide-react";
 
 export function Contact() {
   return (
@@ -13,100 +13,83 @@ export function Contact() {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 gap-12">
-          <div className="space-y-8">
-            <div>
-              <h3 className="text-2xl font-semibold mb-6">Informações de Contato</h3>
-
-              <div className="space-y-6">
-                <div className="flex gap-4">
-                  <div className="flex-shrink-0">
-                    <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center">
-                      <Phone className="w-5 h-5 text-primary" />
-                    </div>
-                  </div>
-                  <div>
-                    <div className="font-semibold mb-1">Telefone / WhatsApp</div>
-                    <a
-                      href="tel:+5581994785397"
-                      className="text-muted-foreground hover:text-primary transition-colors"
-                    >
-                      (81) 99478-5397
-                    </a>
-                  </div>
-                </div>
-
-                <div className="flex gap-4">
-                  <div className="flex-shrink-0">
-                    <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center">
-                      <Mail className="w-5 h-5 text-primary" />
-                    </div>
-                  </div>                  
-                </div>
-
-                <div className="flex gap-4">
-                  <div className="flex-shrink-0">
-                    <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center">
-                      <MapPin className="w-5 h-5 text-primary" />
-                    </div>
-                  </div>
-                  <div>
-                    <div className="font-semibold mb-1">Endereço</div>
-                    <p className="text-muted-foreground">
-                      Recife - PE<br />
-                      Atendemos toda região metropolitana
-                    </p>
-                  </div>
-                </div>
-
-                <div className="flex gap-4">
-                  <div className="flex-shrink-0">
-                    <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center">
-                      <Clock className="w-5 h-5 text-primary" />
-                    </div>
-                  </div>
-                  <div>
-                    <div className="font-semibold mb-1">Horário de Atendimento</div>
-                    <p className="text-muted-foreground">
-                      Segunda a Sexta: 9h às 18h<br />
-                      Sábado: 8h às 13h
-                    </p>
-                  </div>
-                </div>
-
-                <div className="flex gap-4">
-                  <div className="flex-shrink-0">
-                    <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center">
-                      <Instagram className="w-5 h-5 text-primary" />
-                    </div>
-                  </div>
-                  <div>
-                    <div className="font-semibold mb-1">Instagram</div>
-                    <a
-                      href="https://instagram.com/baronesacortinas"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="text-muted-foreground hover:text-primary transition-colors"
-                    >
-                      @baronesacortinas
-                    </a>
-                  </div>
+        <div className="max-w-4xl mx-auto">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
+            {/* Telefone/WhatsApp */}
+            <div className="bg-card border border-primary/20 rounded-2xl p-8 text-center hover:border-primary/50 transition-all hover:shadow-lg hover:shadow-primary/10">
+              <div className="flex justify-center mb-4">
+                <div className="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center">
+                  <Phone className="w-8 h-8 text-primary" />
                 </div>
               </div>
-            </div>
-
-            <div className="pt-8 border-t border-border">
+              <h3 className="text-xl font-semibold mb-3">WhatsApp / Telefone</h3>
               <a
-                href="https://wa.me/5581994785397?text=Olá! Gostaria de agendar uma visita técnica."
+                href="https://wa.me/5581994785397?text=Olá! Gostaria de um orçamento de cortinas sob medida."
                 target="_blank"
                 rel="noopener noreferrer"
-                className="block w-full bg-primary text-primary-foreground px-8 py-4 rounded-full text-center hover:bg-primary/90 transition-all shadow-lg hover:shadow-primary/50"
+                className="text-2xl font-bold text-primary hover:text-primary/80 transition-colors"
               >
-                Agendar Visita Técnica Grátis
+                (81) 99478-5397
               </a>
+              <p className="text-sm text-muted-foreground mt-3">Resposta rápida</p>
+            </div>
+
+            {/* Localização */}
+            <div className="bg-card border border-primary/20 rounded-2xl p-8 text-center hover:border-primary/50 transition-all hover:shadow-lg hover:shadow-primary/10">
+              <div className="flex justify-center mb-4">
+                <div className="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center">
+                  <MapPin className="w-8 h-8 text-primary" />
+                </div>
+              </div>
+              <h3 className="text-xl font-semibold mb-3">Localização</h3>
+              <p className="text-lg font-medium text-primary mb-2">Recife - PE</p>
+              <p className="text-sm text-muted-foreground">Atendemos toda região metropolitana</p>
+            </div>
+
+            {/* Horário */}
+            <div className="bg-card border border-primary/20 rounded-2xl p-8 text-center hover:border-primary/50 transition-all hover:shadow-lg hover:shadow-primary/10">
+              <div className="flex justify-center mb-4">
+                <div className="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center">
+                  <Clock className="w-8 h-8 text-primary" />
+                </div>
+              </div>
+              <h3 className="text-xl font-semibold mb-3">Horário de Atendimento</h3>
+              <p className="text-sm text-muted-foreground">
+                <span className="block font-medium text-foreground">Seg-Sex: 9h às 18h</span>
+                <span className="block">Sábado: 8h às 13h</span>
+              </p>
+            </div>
+
+            {/* Instagram */}
+            <div className="bg-card border border-primary/20 rounded-2xl p-8 text-center hover:border-primary/50 transition-all hover:shadow-lg hover:shadow-primary/10">
+              <div className="flex justify-center mb-4">
+                <div className="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center">
+                  <Instagram className="w-8 h-8 text-primary" />
+                </div>
+              </div>
+              <h3 className="text-xl font-semibold mb-3">Siga-nos</h3>
+              <a
+                href="https://instagram.com/baronesacortinas"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-lg font-bold text-primary hover:text-primary/80 transition-colors"
+              >
+                @baronesacortinas
+              </a>
+              <p className="text-sm text-muted-foreground mt-3">Portfólio de projetos</p>
             </div>
           </div>
 
+          <div className="text-center">
+            <a
+              href="https://wa.me/5581994785397?text=Olá! Gostaria de agendar uma visita técnica."
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center justify-center w-full md:w-auto bg-primary text-primary-foreground px-12 py-5 rounded-full text-lg font-semibold hover:bg-primary/90 transition-all shadow-2xl hover:shadow-primary/50 hover:scale-105"
+            >
+              Agendar Visita Técnica Grátis
+            </a>
+          </div>
         </div>
       </div>
     </section>
