@@ -50,6 +50,8 @@ export function CurtainTypes() {
                 <img
                   src={type.image}
                   alt={type.title}
+                  loading="lazy"
+                  decoding="async"
                   className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
                 />
               </div>

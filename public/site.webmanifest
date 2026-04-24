@@ -1,0 +1,25 @@
+{
+  "name": "Baronesa Cortinas",
+  "short_name": "Baronesa",
+  "description": "Cortinas em Recife com atendimento personalizado e instalação profissional.",
+  "lang": "pt-BR",
+  "id": "/",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#0a0a0a",
+  "theme_color": "#0a0a0a",
+  "categories": ["home", "lifestyle", "business"],
+  "icons": [
+    {
+      "src": "/favicon.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/favicon.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

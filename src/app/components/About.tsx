@@ -33,7 +33,7 @@ export function About() {
               Por que escolher a <span className="text-primary">Baronesa Cortinas</span>?
             </h2>
             <p className="text-muted-foreground text-lg mb-8">
-              Com mais de X anos de experiência no mercado, a Baronesa Cortinas é referência em
+              Com mais de 3 anos de experiência no mercado, a Baronesa Cortinas é referência em
               cortinas sob medida em Recife e região metropolitana. Nosso compromisso é transformar
               ambientes com elegância, funcionalidade e qualidade incomparável.
             </p>
@@ -65,6 +65,8 @@ export function About() {
               <img
                 src="https://images.unsplash.com/photo-1772112334845-86016056137b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=800"
                 alt="Ambiente com cortinas Baronesa"
+                loading="lazy"
+                decoding="async"
                 className="w-full h-full object-cover"
               />
             </div>

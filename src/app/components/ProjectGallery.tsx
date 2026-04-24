@@ -65,6 +65,8 @@ export function ProjectGallery() {
                 <img
                   src={project.image}
                   alt={project.title}
+                  loading="lazy"
+                  decoding="async"
                   className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
                 />
               </div>
@@ -98,7 +100,8 @@ export function ProjectGallery() {
           <div className="max-w-5xl w-full">
             <img
               src={selectedImage}
-              alt="Projeto"
+              alt="Projeto de cortina sob medida"
+              decoding="async"
               className="w-full h-auto rounded-2xl"
             />
           </div>

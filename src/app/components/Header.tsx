@@ -32,7 +32,15 @@ export function Header() {
       <div className="container mx-auto px-4 py-4">
         <div className="flex items-center justify-between">
           <div className="flex items-center gap-3">
-            <img src={logoImage} alt="Baronesa Cortinas" className="h-12 w-12 object-contain" />
+            <img
+              src={logoImage}
+              alt="Logo da Baronesa Cortinas"
+              width="48"
+              height="48"
+              fetchPriority="high"
+              decoding="async"
+              className="h-12 w-12 object-contain"
+            />
             <div>
               <div className="text-xl font-semibold tracking-tight">Baronesa Cortinas</div>
               <div className="text-xs text-muted-foreground">Sob Medida</div>
