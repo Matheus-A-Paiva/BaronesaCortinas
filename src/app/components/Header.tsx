@@ -74,7 +74,7 @@ export function Header() {
               (81) 99478-5397
             </a>
             <a
-              href="https://wa.me/5581994785397?text=Olá! Gostaria de um orçamento de cortinas sob medida."
+              href="https://wa.me/5581994785397?text=Olá, vim pelo site e gostaria de um orçamento de cortinas."
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 bg-primary text-primary-foreground px-6 py-2.5 rounded-full hover:bg-primary/90 transition-all shadow-lg hover:shadow-primary/50"
@@ -126,7 +126,7 @@ export function Header() {
               Contato
             </button>
             <a
-              href="https://wa.me/5581994785397?text=Olá! Gostaria de um orçamento de cortinas sob medida."
+              href="https://wa.me/5581994785397?text=Olá, vim pelo site e gostaria de um orçamento de cortinas."
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex w-full items-center justify-center gap-2 bg-primary text-primary-foreground px-6 py-3 rounded-full text-center hover:bg-primary/90 transition-all"

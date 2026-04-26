@@ -21,7 +21,7 @@ export function Hero() {
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
             <a
-              href="https://wa.me/5581994785397?text=Olá! Gostaria de um orçamento de cortinas sob medida."
+              href="https://wa.me/5581994785397?text=Olá, vim pelo site e gostaria de um orçamento de cortinas."
               target="_blank"
               rel="noopener noreferrer"
               className="bg-primary text-primary-foreground px-8 py-4 rounded-full flex items-center gap-2 hover:bg-primary/90 transition-all shadow-2xl hover:shadow-primary/50 hover:scale-105"

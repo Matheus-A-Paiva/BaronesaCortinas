@@ -24,7 +24,7 @@ export function Contact() {
               </div>
               <h3 className="text-xl font-semibold mb-3">WhatsApp / Telefone</h3>
               <a
-                href="https://wa.me/5581994785397?text=Olá! Gostaria de um orçamento de cortinas sob medida."
+                href="https://wa.me/5581994785397?text=Olá, vim pelo site e gostaria de um orçamento de cortinas."
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-2xl font-bold text-primary hover:text-primary/80 transition-colors"
@@ -82,7 +82,7 @@ export function Contact() {
 
           <div className="text-center">
             <a
-              href="https://wa.me/5581994785397?text=Olá! Gostaria de agendar uma visita técnica."
+              href="https://wa.me/5581994785397?text=Olá, vim pelo site e gostaria de agendar uma visita técnica."
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center justify-center w-full md:w-auto bg-primary text-primary-foreground px-12 py-5 rounded-full text-lg font-semibold hover:bg-primary/90 transition-all shadow-2xl hover:shadow-primary/50 hover:scale-105"
