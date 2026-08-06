@@ -34,7 +34,7 @@ export function About() {
             </h2>
             <p className="text-muted-foreground text-lg mb-8">
               Com mais de 3 anos de experiência no mercado, a Baronesa Cortinas é referência em
-              cortinas sob medida em Recife e região metropolitana. Nosso compromisso é transformar
+              cortinas em Recife e região metropolitana. Nosso compromisso é transformar
               ambientes com elegância, funcionalidade e qualidade incomparável.
             </p>
             <p className="text-muted-foreground text-lg mb-8">
