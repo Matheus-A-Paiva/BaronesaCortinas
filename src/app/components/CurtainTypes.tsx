@@ -5,19 +5,19 @@ const curtainTypes = [
     icon: Moon,
     title: "Cortinas Blackout",
     description: "Bloqueio total de luz.",
-    image: "https://images.unsplash.com/photo-1771039621945-c79535c6361c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=800",
+    image: "/images/blackout.jpeg",
   },
   {
     icon: Sparkles,
-    title: "Cortinas Translúcidas",
+    title: "Cortinas em Linho Sintético",
     description: "Elegância e luminosidade.",
-    image: "https://images.unsplash.com/photo-1763940018489-12e722c40bab?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=800",
+    image: "/images/linho-sintetico.jpeg",
   },
   {
     icon: Ruler,
     title: "Cortinas Sob Medida",
     description: "Personalização total.",
-    image: "https://images.unsplash.com/photo-1771039622237-2725bdf33edf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=800",
+    image: "/images/sob-medida.jpeg",
   },
   {
     icon: Scissors,

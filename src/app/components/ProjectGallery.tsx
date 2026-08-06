@@ -3,39 +3,27 @@ import { useState } from "react";
 const projects = [
   {
     id: 1,
-    image: "https://images.unsplash.com/photo-1754611362309-71297e9f42fd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=800",
-    title: "Sala de Estar Moderna",
-    category: "Residencial",
+    image: "/images/projeto1.jpeg"
   },
   {
     id: 2,
-    image: "https://images.unsplash.com/photo-1772537507935-065b8aba4df5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=800",
-    title: "Quarto Clássico",
-    category: "Residencial",
+    image: "/images/linho-sintetico.jpeg"
   },
   {
     id: 3,
-    image: "https://images.unsplash.com/photo-1758298030677-93e545d69a64?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=800",
-    title: "Living Elegante",
-    category: "Residencial",
+    image: "/images/projeto2.jpeg"
   },
   {
     id: 4,
-    image: "https://images.unsplash.com/photo-1766928210443-0be92ed5884a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=800",
-    title: "Quarto Minimalista",
-    category: "Residencial",
+    image: "/images/sob-medida.jpeg"
   },
   {
     id: 5,
-    image: "https://images.unsplash.com/photo-1761725406659-088c97a81fc0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=800",
-    title: "Sala Contemporânea",
-    category: "Residencial",
+    image: "/images/projeto3.jpeg"
   },
   {
     id: 6,
-    image: "https://images.unsplash.com/photo-1775144657351-1708d0ea060d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=800",
-    title: "Ambiente Sofisticado",
-    category: "Residencial",
+    image: "/images/projeto4.jpeg"    
   },
 ];
 
@@ -61,13 +49,13 @@ export function ProjectGallery() {
               className="group relative overflow-hidden rounded-2xl cursor-pointer"
               onClick={() => setSelectedImage(project.image)}
             >
-              <div className="aspect-[4/3] overflow-hidden bg-card">
+              <div className="h-[400px] overflow-hidden bg-card">
                 <img
                   src={project.image}
-                  alt={project.title}
+                  alt={`Projeto ${project.id} de cortina sob medida`}
                   loading="lazy"
                   decoding="async"
-                  className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+                  className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                 />
               </div>
               <div className="absolute inset-0 bg-gradient-to-t from-background via-background/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-6">
